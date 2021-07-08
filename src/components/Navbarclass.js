@@ -19,8 +19,7 @@ function Navbarclass() {
       <Navbar.Brand href="#home" > <img src={icon} alt="logo" className="page-header_logo"/></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="ml-auto" >
-         
+        <Nav className="ml-auto" >         
           <Nav.Link  className="navlink" as={Link} to="/">    <AiOutlineHome style={{ marginBottom: "2px" }} /> 
             Home
           </Nav.Link>
