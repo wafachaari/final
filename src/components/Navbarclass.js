@@ -2,17 +2,14 @@ import Nav from "react-bootstrap/Nav";
 import React from 'react';
 import { Link } from "react-router-dom";
 import { Navbar  } from "react-bootstrap";
- 
 import icon from '../img/logo-header.svg'
-import {
-  
+import {  
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-import './style.css'
+import '../style.css'
 function Navbarclass() {
-  
   return (
     <div>
     <Navbar collapseOnSelect expand="lg" >
