@@ -478,7 +478,7 @@ color: black;
 font-weight: bold;
 }
 .navlink:hover
-{color: orange !important;}
+{color: red !important;}
  
 .ligne{background-color: orange;
 height: 4px;
