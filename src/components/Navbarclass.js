@@ -13,7 +13,7 @@ function Navbarclass() {
   return (
     <div>
     <Navbar collapseOnSelect expand="lg" >
-      <Navbar.Brand href="#home" > <img src={icon} alt="logo" className="page-header_logo"/></Navbar.Brand>
+      <Navbar.Brand href="#home" > <img src={icon}  className="img-fluid logo" alt="brand" /></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto" >         
