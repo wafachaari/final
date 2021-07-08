@@ -8,7 +8,6 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
- 
 function Navbarclass() {
   return (
     <div>
@@ -17,7 +16,7 @@ function Navbarclass() {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto"  defaultActiveKey="#home" >         
-          <Nav.Link className="navlink" as={Link} to="/Home">    <AiOutlineHome style={{ marginBottom: "2px" }} /> 
+          <Nav.Link className="navlink" as={Link} to="/">    <AiOutlineHome style={{ marginBottom: "2px" }} /> 
             Home
           </Nav.Link>
           <Nav.Link className="navlink" as={Link} to="/About">
