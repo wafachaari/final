@@ -437,9 +437,10 @@ body {
 }
 .img-card {
   align-items: center;
-  width: 15%;
+ 
   margin: 40px auto;
-  height: 15%;
+  height: 60px;
+  width: 60px;
 
 }
 .bd-card {
