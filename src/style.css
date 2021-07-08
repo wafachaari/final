@@ -489,7 +489,7 @@ width: 90%;
  .footer{
   background-color: orange;
   bottom: 0 !important;
-  //padding-top: 10px !important;
+   
   padding-bottom: 8px !important ;
   position: relative;
 }

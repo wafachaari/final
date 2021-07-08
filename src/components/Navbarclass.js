@@ -33,7 +33,6 @@ function Navbarclass() {
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
-
     </Navbar>
     <div className="ligne" ></div>
     </div>
