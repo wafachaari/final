@@ -1,0 +1,50 @@
+.navbar{
+  flex-grow: 1;
+display: inline-block;
+  margin-right: 80px;
+  font-size: 20px;
+ font-family: cursive;
+color: black;
+font-weight: bold;
+}
+.navlink:hover
+{color: orange !important;}
+ 
+.ligne{background-color: orange;
+height: 4px;
+width: 90%;
+ align-content: center;
+ margin: auto;}
+
+ .footer{
+  background-color: orange;
+  bottom: 0 !important;
+  //padding-top: 10px !important;
+  padding-bottom: 8px !important ;
+  position: relative;
+}
+ .page-header_logo{
+height:35px ;
+ 
+margin-left: 90px;
+}
+.text-black{
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+.paragraph{
+ padding-left: 30px;
+ font-style: normal;
+ font-size: 20px;
+ font-family: cursive;
+ 
+}
+.white{color: whitesmoke;
+font-size: 30px;}
+ 
+.icon{
+   padding-left :30px;
+  
+}

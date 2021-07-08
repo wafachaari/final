@@ -1,0 +1,192 @@
+ .container_home{
+  
+ position: relative; 
+ background-position: top center;
+ background-repeat: no-repeat;
+ 
+ background-position: top center;
+ padding-bottom: 15% !important;
+ padding-top: 15% !important;
+} 
+.index-table{position: relative;
+  
+  padding-top: 90px !important;}
+
+.imgc{
+  background-image: url(../../img/oJZB4RY.jpg);background-size:cover;
+  margin:0;
+}
+
+.home2-row{margin:auto;
+align-content: center;
+ 
+}
+ 
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.1s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.home-text{
+  font-style: normal;
+  font-size: 20px;
+  font-family: cursive;
+  line-height: 50px;
+}
+.main-name{color: orange;}
+ 
+.cardbody{display:grid;
+  align-content: center;
+align-items: center;
+  }
+
+.blobs{  
+  filter:url('#goo');
+  position:absolute;  
+  top:50px;
+  left:0;
+  bottom:0;
+  right:0;
+}
+$dist-x:120px;
+$dist-y:120px;
+@keyframes blob-left-top-anim{
+  0%{
+    transform:scale(1.1) translate(0,0);
+  }
+  33%{
+    transform:scale(0.9) translate(-$dist-x,0);
+  }
+  62%{
+    transform:scale(0.7) translate(-$dist-x,-$dist-y);
+
+  }
+  94%{
+    transform:scale(1.1) translate(0,0);
+  }
+}
+
+@keyframes blob-right-top-anim{
+  0%{
+    transform:scale(1.1) translate(0,0);
+  }
+  33%{
+    transform:scale(0.9) translate($dist-x,0);
+  }
+  64%{
+    transform:scale(0.7) translate($dist-x,-$dist-y);
+  }
+  96%{
+    transform:scale(1.1) translate(0,0);
+  }
+}
+@keyframes blob-left-bottom-anim{
+  0%{
+    transform:scale(1.1) translate(0,0);
+  }
+  33%{
+    transform:scale(0.9) translate(-$dist-x,0);
+  }
+  66%{
+    transform:scale(0.7) translate(-$dist-x,$dist-y);
+  }
+  98%{
+    transform:scale(1.1) translate(0,0);
+  }
+}
+
+@keyframes blob-right-bottom-anim{
+  0%{
+    transform:scale(1.1) translate(0,0);
+  }
+  33%{
+    transform:scale(0.9) translate($dist-x,0);
+  }
+  68%{
+    transform:scale(0.7) translate($dist-x,$dist-y);
+  }
+  100%{
+    transform:scale(1.1) translate(0,0);
+  }
+}
+
+.blob{
+  position:absolute;
+  background:orange;
+ 
+  left:50%;
+  top:50%;
+  width:170px;
+  height:100px;
+  line-height:100px;
+  text-align:center;
+  color:black;
+  font-size:30px;
+  border-radius:100%;
+
+  margin-top:-50px;
+  margin-left:-50px;
+  animation:blob-left-top-anim cubic-bezier(0.770, 0.000, 0.175, 1.000) 4s infinite;
+  
+  &:nth-child(2){
+    animation-name:blob-right-top-anim;
+  }
+  &:nth-child(3){
+    animation-name:blob-left-bottom-anim;
+  }
+  &:nth-child(4){
+    animation-name:blob-right-bottom-anim;
+  }
+}
+.img-card{align-items: center;
+width: 15%;
+margin: 40px auto;
+height: 15%;}
+ .bd-card{
+font-size: 20px;
+font-style: normal;
+align-items: center;
+margin: 10px 10px;
+ }
+ .tt-card{
+   margin: 10px auto !important; 
+ }
+ .home-card{
+  color: black !important;
+  background-color :#FFFFE0   !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height:60%;
+  display: inline-block;
+  margin: auto;
+  border-radius: 20%;
+ }
