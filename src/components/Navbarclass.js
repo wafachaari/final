@@ -16,7 +16,7 @@ function Navbarclass() {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto"  defaultActiveKey="#home" >         
-          <Nav.Link className="navlink" as={Link} to="/">    <AiOutlineHome style={{ marginBottom: "2px" }} /> 
+          <Nav.Link className="navlink" as={Link} to="/final">    <AiOutlineHome style={{ marginBottom: "2px" }} /> 
             Home
           </Nav.Link>
           <Nav.Link className="navlink" as={Link} to="/About">
