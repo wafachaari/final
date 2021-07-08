@@ -1,26 +1,28 @@
 /*projects*/
-.image-card{
+.image-card {
   width: 60% !important;
   height: 60% !important;
   float: left;
   padding: 20px;
-border-radius: 15px !important;
- 
+  border-radius: 15px !important;
 }
-.header{color: rgba(255, 166, 0, 0.781);
-  font-size: 20px;  background-color: white !important;
-align-content: center !important;}
-.button-class{ 
+.header {
+  color: rgba(255, 166, 0, 0.781);
+  font-size: 20px;
+  background-color: white !important;
+  align-content: center !important;
+}
+.button-class {
   background-color: white !important;
   border: 2px solid orange !important;
-   color: black !important;
-margin: 10px;}
- 
-.button-class:hover{
+  color: black !important;
+  margin: 10px;
+}
+.button-class:hover {
   background-color: orange !important;
   border: 2px solid orange !important;
-   color: black !important;
-margin: 10px;
+  color: black !important;
+  margin: 10px;
 }
 .project-card {
   padding-top: 50px !important;
@@ -30,37 +32,32 @@ margin: 10px;
   height: auto !important;
   width: 100%;
 }
-
-.text{padding-right: 50px;
-margin: 30px;}
-
-.bodycard{display: grid;
+.text {
+  padding-right: 50px;
+  margin: 30px;
 }
-.card-title{ margin-top: 25px;
+.bodycard {
+  display: grid;
+}
+.card-title {
+  margin-top: 25px;
   font-size: 20px;
   font-style: oblique;
   font-weight: bolder;
 }
 .project-card-view {
   color: black !important;
-  background-color :#FFFFE0   !important;
+  background-color: #ffffe0 !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
-  height:100%;
+  height: 100%;
   display: inline-block;
- 
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px orange !important;
 }
-  
-
-
-
-
-
 /*about*/
 .profile-container {
   display: inline-block;
@@ -160,7 +157,6 @@ span {
   padding: 0;
 }
 body {
- 
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 .buttons {
@@ -271,8 +267,6 @@ body {
 @supports (filter: url('#goo')) {
   transform: translateZ(0) scale(1.4);
 }
-
-
 /*home*/
 .home_section {
   background-image: url(../src/img/oJZB4RY.jpg);
@@ -466,55 +460,52 @@ body {
   margin: auto;
   border-radius: 20%;
 }
-
 /**/
-.navbar{
+.navbar {
   flex-grow: 1;
-display: inline-block;
+  display: inline-block;
   margin-right: 80px;
   font-size: 20px;
- font-family: cursive;
-color: black;
-font-weight: bold;
+  font-family: cursive;
+  color: black;
+  font-weight: bold;
 }
-.navlink:hover
-{color: orange !important;}
- 
-.ligne{background-color: orange;
-height: 4px;
-width: 90%;
- align-content: center;
- margin: auto;}
-
- .footer{
+.navlink:hover {
+  color: orange !important;
+}
+.ligne {
+  background-color: orange;
+  height: 4px;
+  width: 90%;
+  align-content: center;
+  margin: auto;
+}
+.footer {
   background-color: orange;
   bottom: 0 !important;
-   
-  padding-bottom: 8px !important ;
+  padding-bottom: 8px !important;
   position: relative;
 }
- .page-header_logo{
-height:35px ;
- 
-margin-left: 90px;
+.page-header_logo {
+  height: 35px;
+  margin-left: 90px;
 }
-.text-black{
+.text-black {
   padding-top: 10px;
   padding-left: 20px;
   padding-bottom: 10px;
   font-size: 30px;
 }
-.paragraph{
- padding-left: 30px;
- font-style: normal;
- font-size: 20px;
- font-family: cursive;
- 
+.paragraph {
+  padding-left: 30px;
+  font-style: normal;
+  font-size: 20px;
+  font-family: cursive;
 }
-.white{color: whitesmoke;
-font-size: 30px;}
- 
-.icon{
-   padding-left :30px;
-  
+.white {
+  color: whitesmoke;
+  font-size: 30px;
+}
+.icon {
+  padding-left: 30px;
 }
