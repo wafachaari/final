@@ -1,6 +1,6 @@
 import React from 'react'; 
 import Card from 'react-bootstrap/Card';
-import './Home.css'        
+      
  
 function Home2(props) {
   return (

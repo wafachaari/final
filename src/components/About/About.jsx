@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
  
-import './About.css';
+ 
 import laptop from '../../img/clipart.png';
 import attach from "../../img/attach.gif"
 import Icon from "./Icon";

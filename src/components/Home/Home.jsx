@@ -1,8 +1,7 @@
 import React from 'react';
 
 import { Container, Row, Col } from "react-bootstrap";
-
-import './Home.css';
+ 
 import Home2 from './Home2'
 import logo from '../../img/indexsustainble.svg';
 import logo1 from '../../img/indexpixed.svg';

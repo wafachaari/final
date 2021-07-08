@@ -1,7 +1,4 @@
  
-import './About.css';
-
-
 import clip from '../../img/clip2.png';
 import clip3 from '../../img/clip3.png';
 import clip4 from '../../img/clip4.png';

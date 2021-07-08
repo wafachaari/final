@@ -1,5 +1,5 @@
 import React from 'react';
- 
+
 import "./style.css";
 import "./App.css";
 import Navbarclass from "./components/Navbarclass";
@@ -11,17 +11,17 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
-  <Router>
+    <Router>
       <div className="App" >
         <Navbarclass />
         <Switch>
+          <Route path="/Home" exact component={Home} />
           <Route path="/projects" component={Projects} />
-          <Route path="/" exact component={Home} />
           <Route path="/About" component={About} />
         </Switch>
         <Footer />
-      
-    </div></Router>
+
+      </div></Router>
   );
 }
 

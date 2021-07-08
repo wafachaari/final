@@ -440,6 +440,7 @@ body {
   width: 15%;
   margin: 40px auto;
   height: 15%;
+
 }
 .bd-card {
   font-size: 20px;
@@ -451,7 +452,7 @@ body {
   margin: 10px auto !important;
 }
 .home-card {
-  color: black !important;
+  color: red !important;
   background-color: #ffffe0 !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
@@ -469,6 +470,7 @@ body {
   font-family: cursive;
   color: black;
   font-weight: bold;
+  
 }
 .navlink:hover {
   color: orange !important;

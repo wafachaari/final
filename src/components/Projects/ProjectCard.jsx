@@ -2,8 +2,7 @@
  
 import Card from 'react-bootstrap/Card'; 
 import React from "react";
-import './Projects.css';
-
+ 
  
 import Button from "react-bootstrap/Button";
 // Main component (will eventually use all the others)

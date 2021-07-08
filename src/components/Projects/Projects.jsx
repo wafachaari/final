@@ -4,7 +4,7 @@ import movieapi from '../../img/mov.png';
 import pokemon from '../../img/pok.png';
 import { Container, Row } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
-import './Projects.css'
+ 
 // Main component (will eventually use all the others)
 function Projects() {
   return (
