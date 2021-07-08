@@ -43,19 +43,19 @@ function Home() {
 
       <Container className="index-table">
 
-        <Row className="home2-row">
-          <Col className="col" >
+        <Row className="home2-row" style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="home2-card" >
             <Home2 img={logo}
               title="User first"
               text="when I start to code,I switch on an user mind and see the problem to resolve from his perspective"
             ></Home2>
           </Col>
-          <Col className="col" >
+          <Col md={4} className="home2-card" >
             <Home2 img={logo1}
               title="never storp learning"
               text="For me, this is the basic for developer.I like the challenges and make new things.So, it implies to never stop learning new skills"></Home2>
           </Col>
-          <Col className="col" >
+          <Col  md={4} className="home2-card" >
             <Home2 img={logo2}
               title="Re-useful code"
               text="when I code, my effort it's on make the code be reuseful and simple.
