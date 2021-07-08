@@ -1,7 +1,7 @@
 import React from 'react';
- 
+
 import { Container, Row, Col } from "react-bootstrap";
- 
+
 import './Home.css';
 import Home2 from './Home2'
 import logo from '../../img/indexsustainble.svg';
@@ -11,9 +11,8 @@ import logo2 from '../../img/indexneed.svg';
 function Home() {
   return (
     <section className="section section-lg">
-      <Container fluid className="imgc" >
+      <Container fluid className="home_section" >
         <Container className="container_home">
-
           <Row>
             <Col md={6}>
               <h1>Hi There <span className="wave">👋🏻</span>,</h1>
@@ -29,7 +28,6 @@ function Home() {
                 <div className="blob">𝓼𝓴𝓲𝓵𝓵𝓼</div>
                 <div className="blob">𝓬𝓱𝓪𝓵𝓵𝓮𝓷𝓰𝓮</div>
               </div>
-
               <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
                 <defs>
                   <filter id="goo">
@@ -44,7 +42,7 @@ function Home() {
         </Container>
       </Container>
 
-      <Container   className="index-table">
+      <Container className="index-table">
 
         <Row className="home2-row">
           <Col className="col" >
