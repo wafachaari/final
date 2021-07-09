@@ -14,23 +14,31 @@ function Navbarclass() {
       <Navbar collapseOnSelect expand="lg" >
         <Navbar.Brand href="#home" > <img src={icon} className="img-fluid logo" alt="brand" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      
+      
+      
+      
         <Navbar.Collapse  id="responsive-navbar-nav">
-          <Nav my-2 my-lg-0 className="ml-auto" defaultActiveKey="#home" >
+          <Nav className="ml-auto" defaultActiveKey="#home" >
+            <Nav.Item>
             <Nav.Link className="navlink" as={Link} to="/">
               <AiOutlineHome style={{ marginBottom: "2px" }} />
               Home
             </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
             <Nav.Link className="navlink" as={Link} to="/About">
               <AiOutlineUser style={{ marginBottom: "2px" }} />
               About
             </Nav.Link>
+            </Nav.Item><Nav.Item>
             <Nav.Link className="navlink" as={Link} to="/Projects">
 
               <AiOutlineFundProjectionScreen
                 style={{ marginBottom: "2px" }}
               />{" "}
               projects
-            </Nav.Link>
+            </Nav.Link></Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

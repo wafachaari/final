@@ -472,7 +472,7 @@ body {
   height: 100%;
  
 }
-/**/
+/**//*
 .navbar {
   flex-grow: 1;
   display: inline-block;
@@ -485,7 +485,7 @@ body {
 }
 .navlink:hover {
   color: orange !important;
-}
+}*/
 .ligne {
   background-color: orange;
   height: 4px;
