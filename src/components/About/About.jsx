@@ -1,8 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
- 
- 
-import laptop from '../../img/clipart.png';
+ import laptop from '../../img/clipart.png';
 import attach from "../../img/attach.gif"
 import Icon from "./Icon";
 import skills from '../../img/tools.png'

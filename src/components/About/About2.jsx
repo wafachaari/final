@@ -36,11 +36,6 @@ function About2() {
           <Col className="colskills2">
             Oracle, SQL Server, JBoss application server</Col>
         </Row></div>
-
-
-
-
-
     </Container>
   );
 }

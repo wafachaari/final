@@ -1,7 +1,5 @@
 import React from 'react';
-
 import { Container, Row, Col } from "react-bootstrap";
- 
 import Home2 from './Home2'
 import logo from '../../img/indexsustainble.svg';
 import logo1 from '../../img/indexpixed.svg';
@@ -55,21 +53,16 @@ function Home() {
               title="never storp learning"
               text="For me, this is the basic for developer.I like the challenges and make new things.So, it implies to never stop learning new skills"></Home2>
           </Col>
-          <Col  md={4} className="home2-card" >
+          <Col md={4} className="home2-card" >
             <Home2 img={logo2}
               title="Re-useful code"
               text="when I code, my effort it's on make the code be reuseful and simple.
            To keep my skills ahead of the curve, I am constantly honing my skills to new techniques and technologies"
             ></Home2>
           </Col>
-
         </Row>
       </Container>
-
     </section>
   );
-
-
-
 }
 export default Home;

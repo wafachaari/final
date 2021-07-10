@@ -1,7 +1,5 @@
 import React from 'react'; 
 import Card from 'react-bootstrap/Card';
-      
- 
 function Home2(props) {
   return (
     <Card fluid className="home-card">
