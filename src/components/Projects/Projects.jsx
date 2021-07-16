@@ -4,6 +4,7 @@ import movieapi from '../../img/mov.png';
 import pokemon from '../../img/pok.png';
 import { Container, Row } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
+import chat from '../../img/chat.png'
 function Projects() {
   return (
     <Container>
@@ -34,6 +35,17 @@ function Projects() {
             // isBlog={false}
             title="Javascript/jQuery Web App - PokéDex"
             description="  a javascript app with HTML,css,jquery ,that also loads data from an external API The styling for this app was created with help from Bootstrap and interacts with the Pokemon API. The development of Poke-Dex took a deep dive into advanced JavaScript methods and DOM interaction."
+            link="https://github.com/wafachaari/myFlix-clien"
+            application="https://wafachaari.github.io/meet/"
+          />
+        </Row>
+        <Row className="project-card">
+          <ProjectCard
+            header="React-Native | CSS | React-Navigation | Firestore | Expo | JavaScript | GiftedChat | JSDocs"
+            imgPath={chat}
+            // isBlog={false}
+            title="chatter-box"
+            description="  This react native chat app utilizing react-gifted-chat delivers a real-time chat experience. It has Google Firestore for server side and storage services. Read the detailed readme.md in the GitHub link for more information."
             link="https://github.com/wafachaari/myFlix-clien"
             application="https://wafachaari.github.io/meet/"
           />

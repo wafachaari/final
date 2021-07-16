@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import Home2 from './Home2'
 import logo from '../../img/indexsustainble.svg';
 import logo1 from '../../img/indexpixed.svg';
-
 import git from '../../img/github.png'
 import link from '../../img/link3.png'
 import inst from '../../img/inst.png'
@@ -40,7 +39,7 @@ function Home() {
             </Col>
           </Row>
         </Container>
-        <div className="icon">
+        <div className="home-icon">
             <a
               href=" "
               style={{ color: "black" }}
