@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from "react-router-dom";
 import { Navbar, Nav } from 'react-bootstrap';
@@ -41,7 +40,6 @@ function Navbarclass() {
       </Navbar>
       <div className="ligne" ></div>
     </div>
-
   )
 }
 export default Navbarclass;

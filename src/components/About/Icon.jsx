@@ -12,8 +12,7 @@ import clip11 from '../../img/clip11.png';
 import clip12 from '../../img/clip12.png';
 import clip13 from '../../img/clip13.png';
 import { Row,Col } from 'reactstrap';
-import React  from 'react';
-// Main component (will eventually use all the others)
+import React  from 'react'; 
 function Icon() {
   return (
     <div>
@@ -22,12 +21,10 @@ function Icon() {
         <Col><img className="clip" src={clip3} alt="about" /></Col>
         <Col><img className="clip" src={clip4} alt="about" /></Col>
         <Col><img className="clip" src={clip5} alt="about" /></Col>
-
         <Col><img className="clip" src={clip6} alt="about" /></Col>
         <Col><img className="clip" src={clip7} alt="about" /></Col>
         <Col><img className="clip" src={clip8} alt="about" /></Col>
         <Col><img className="clip" src={clip9} alt="about" /></Col>
-
         <Col><img className="clip" src={clip10} alt="about" /></Col>
         <Col><img className="clip" src={clip11} alt="about" /></Col>
         <Col><img className="clip" src={clip12} alt="about" /></Col>

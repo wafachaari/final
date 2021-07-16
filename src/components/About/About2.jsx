@@ -1,8 +1,5 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-
- 
-// Main component (will eventually use all the others)
 function About2() {
   return (
     <Container>

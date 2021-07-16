@@ -7,7 +7,6 @@ import skills from '../../img/tools.png'
 import About2 from "./About2"
 import Animation from "./Animation"
  
-// Main component (will eventually use all the others)
 function About() {
   return (
     <section>

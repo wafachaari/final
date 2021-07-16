@@ -3,8 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import Home2 from './Home2'
 import logo from '../../img/indexsustainble.svg';
 import logo1 from '../../img/indexpixed.svg';
+
+import git from '../../img/github.png'
+import link from '../../img/link3.png'
+import inst from '../../img/inst.png'
 import logo2 from '../../img/indexneed.svg';
-// Main component (will eventually use all the others)
 function Home() {
   return (
     <section className="section section-lg">
@@ -37,10 +40,28 @@ function Home() {
             </Col>
           </Row>
         </Container>
+        <div className="icon">
+            <a
+              href=" "
+              style={{ color: "black" }}
+            >
+              <img alt="git" src={git}></img>
+            </a>
+            <a
+              href=" "
+              style={{ color: "black" }}
+            ><img alt="link" src={link}></img>
+            </a>
+            <a
+              href=" "
+              style={{ color: "black" }}
+            >
+              <img alt="inst" src={inst}></img>
+            </a>
+          </div>
       </Container>
 
       <Container className="index-table">
-
         <Row className="home2-row" style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="home2-card" >
             <Home2 img={logo}
@@ -61,7 +82,9 @@ function Home() {
             ></Home2>
           </Col>
         </Row>
+
       </Container>
+     
     </section>
   );
 }
