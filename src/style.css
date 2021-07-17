@@ -332,7 +332,7 @@ margin-left: 150px;
   background-position: top center;
   background-repeat: no-repeat;
   background-position: top center;
-  padding-bottom: 11% !important;
+  padding-bottom: 12% !important;
   padding-top: 15% !important;
 }
 .index-table {
@@ -491,11 +491,12 @@ margin-left: 150px;
 .img-card {
   align-items: center;
  
-  margin: 40px auto;
+  margin-top: 40px;
   height: 60px;
   
 
 }
+.card-text{margin-top: 20px;}
 .bd-card {
   font-size: 20px;
   font-style: normal;
@@ -504,14 +505,14 @@ margin-left: 150px;
 }
 .tt-card {
   margin: 10px auto !important;
+  display: table;
 }
 .home2-card{padding-top: 50px !important;
   padding-bottom: 50px !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;}
-
-
+ 
   
 .home-card {
   color: black !important;

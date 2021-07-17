@@ -27,7 +27,7 @@ function About() {
                 <a href="../../img/lebenslauf-wafachaari.pdf" download>
                   <button class="blob-btn" >
                     <img className="lebenslauf-img" src={attach} alt="attach"></img>
-                 see my resume here 
+                       see my resume here 
                     <span class="blob-btn__inner">
                       <span class="blob-btn__blobs">
                         <span class="blob-btn__blob"></span>
