@@ -44,30 +44,7 @@ function About() {
               <img alt="laptop" src={laptop} className="img-about" />
             </Col>
 
-            {/* <Col md={6}>
-              <div className="lebenslauf" >
-
-                <div class="buttons">
-                  <button class="blob-btn">
-                    <img className="lebenslauf-img" src={attach}></img>
-                    download
-                    <span class="blob-btn__inner">
-                      <span class="blob-btn__blobs">
-                        <span class="blob-btn__blob"></span>
-                        <span class="blob-btn__blob"></span>
-                        <span class="blob-btn__blob"></span>
-                        <span class="blob-btn__blob"></span>
-                      </span>
-                    </span>
-                  </button>
-                  <br />
-                </div>
-                <div className="imgg">
-                  <img className="lebenslauf-img" src={attach}></img>
-
-                  <img src={lebenslauf}></img></div>
-              </div>
-            </Col> */}
+          
           </Row>
         </div>
       </Container>
