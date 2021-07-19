@@ -12,7 +12,7 @@ function Navbarclass() {
     <div>
       <Navbar collapseOnSelect expand="lg" >
         <Navbar.Brand href="https://wafachaari.github.io/final/" >
-          <img src={icon} className="img-fluid logo" alt="brand"  /></Navbar.Brand>
+          <img src={icon} className="img-fluid logo" alt="brand" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home" >
@@ -29,7 +29,6 @@ function Navbarclass() {
               </Nav.Link>
             </Nav.Item><Nav.Item>
               <Nav.Link className="navlink" as={Link} to="/Projects">
-
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}

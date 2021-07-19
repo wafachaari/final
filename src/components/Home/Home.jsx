@@ -1,7 +1,6 @@
-import React   from 'react';
+import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import Home2 from './Home2'
- 
 import logo from '../../img/indexsustainble.svg';
 import logo1 from '../../img/indexpixed.svg';
 import git from '../../img/github.png'
@@ -9,14 +8,11 @@ import link from '../../img/link3.png'
 import twitter from '../../img/twitter.png'
 import inst from '../../img/inst.png'
 import logo2 from '../../img/indexneed.svg';
-function Home() { 
- 
+function Home() {
   return (
     <section className="section section-lg">
       <Container fluid className="home_section" >
         <Container className="container_home">
-        
-         
           <Row>
             <Col md={6}>
               <h1>Hi There <span className="wave">👋🏻</span>,</h1>
@@ -45,35 +41,34 @@ function Home() {
           </Row>
         </Container>
         <div className="home-icon">
-            <a
-              href="https://github.com/wafachaari"
-              style={{ color: "black" }}
-            >
-              <img alt="git" src={git}></img>
-            </a>
+          <a
+            href="https://github.com/wafachaari"
+            style={{ color: "black" }}
+          >
+            <img alt="git" src={git}></img>
+          </a>
 
-            <a
-              href="https://www.linkedin.com/in/wafa-chaari-8b98a0206/ "
-              style={{ color: "black" }}
-            ><img alt="link" src={link}></img>
-            </a>
+          <a
+            href="https://www.linkedin.com/in/wafa-chaari-8b98a0206/ "
+            style={{ color: "black" }}
+          ><img alt="link" src={link}></img>
+          </a>
 
-            <a
-              href=" "
-              style={{ color: "black" }}
-            >
-              <img alt="inst" src={inst}></img>
-            </a>
+          <a
+            href=" "
+            style={{ color: "black" }}
+          >
+            <img alt="inst" src={inst}></img>
+          </a>
 
-            <a
-              href="https://twitter.com/wafa_chaari "
-              style={{ color: "black" }}
-            >
-              <img alt="twitter" src={twitter}></img>
-            </a>
-          </div>
+          <a
+            href="https://twitter.com/wafa_chaari "
+            style={{ color: "black" }}
+          >
+            <img alt="twitter" src={twitter}></img>
+          </a>
+        </div>
       </Container>
-
       <Container className="index-table">
         <Row className="home2-row" style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="home2-card" >
@@ -91,13 +86,10 @@ function Home() {
             <Home2 img={logo2}
               title="Re-useful code"
               text="when I code, my effort it's on make the code be reuseful and simple."
-         //  To keep my skills ahead of the curve, I am constantly honing my skills to new techniques and technologies"
             ></Home2>
           </Col>
         </Row>
-
       </Container>
-     
     </section>
   );
 }

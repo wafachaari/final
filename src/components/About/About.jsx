@@ -1,12 +1,12 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
- import laptop from '../../img/clipart.png';
+import laptop from '../../img/clipart.png';
 import attach from "../../img/att3.png"
 import Icon from "./Icon";
 import skills from '../../img/tools.png'
 import About2 from "./About2"
 import Animation from "./Animation"
- 
+
 function About() {
   return (
     <section>
@@ -16,7 +16,7 @@ function About() {
             <Col md={8}  >
               <p className="about-text" >I'am
                 <div className="animation">
-                   <Animation />
+                  <Animation />
                 </div>
                 <br></br>⚡Technology is something I have been passionate about for as long as I can remember, so it wasn’t a difficult decision to choose my career.
                 <br></br><br></br>⚡my sense of curiosity and my drive to get things done make me want to develop my own technical solutions.  here is my role, which included identifying problems and gathering requirements from various stakeholders.
@@ -27,7 +27,7 @@ function About() {
                 <a href="../../img/lebenslauf-wafachaari.pdf" download>
                   <button className="blob-btn" >
                     <img className="lebenslauf-img" src={attach} alt="attach"></img>
-                       see my resume here 
+                    see my resume here
                     <span className="blob-btn__inner">
                       <span className="blob-btn__blobs">
                         <span className="blob-btn__blob"></span>
@@ -43,13 +43,11 @@ function About() {
             <Col className="about-img">
               <img alt="laptop" src={laptop} className="img-about" />
             </Col>
-
-          
           </Row>
         </div>
       </Container>
       <div className="skills">
-        <h1 className="skills-text"><img alt="skills "className="skills-img" src={skills}></img>
+        <h1 className="skills-text"><img alt="skills " className="skills-img" src={skills}></img>
           The Skills..</h1>
         <About2 />
       </div>

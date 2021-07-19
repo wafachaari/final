@@ -3,11 +3,9 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
-
 import ReactPlayer from 'react-player'
 function ProjectCard(props) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
-
   return (
     <div>
       <Card className="project-card-view">
@@ -28,16 +26,12 @@ function ProjectCard(props) {
                 height="calc(100vh - 100px)" ></ReactPlayer>
             </div>
           </Modal>
-
         </Card.Body>
       </Card>
 
     </div>
   );
 }
-
-
-
 const rootElement = document.getElementById("root");
 ReactDOM.render(<ProjectCard />, rootElement);
 export default ProjectCard;

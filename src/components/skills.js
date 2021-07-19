@@ -11,7 +11,6 @@ export const skillsSection = {
       '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
     ),
   ],
-
   softwareSkills: [
     {
       skillName: 'html-5',
