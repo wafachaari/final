@@ -7,7 +7,10 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
+ 
+
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
@@ -15,7 +18,8 @@ function App() {
       <div className="App" >
         <Navbarclass />
         <Switch>
-          <Route path="/final" exact component={Home} />
+        
+          <Route path="/final"   component={Home} />
           <Route path="/projects" component={Projects} />
           <Route path="/About" component={About} />
         </Switch>

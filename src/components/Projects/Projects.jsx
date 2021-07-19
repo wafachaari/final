@@ -17,6 +17,7 @@ function Projects() {
             github="https://github.com/wafachaari/myFlix-client"
             header="React | CSS | JavaScript | OAuth2 | Jest | Serverless Programming"
             application="https://wafachaari.github.io/meet/"
+            URl="../../img/ach2.mp4"
           />
         </Row>
         <Row className="project-card">
@@ -25,7 +26,7 @@ function Projects() {
             imgPath={movieapi}
             title="ReactJS Web App - MyFlix"
             description=" full stack application using React, JWT, and Node.js for serverside (which queries a REST API built from scratch) allows you to create a profile, browse movies, favorite movies, explore directors, and update information.."
-            application="https://wafachaari.github.io/meet/"
+            application="https://myflix-client-wafa.netlify.app/"
             github="https://github.com/wafachaari/myFlix-clien" />
         </Row>
         <Row className="project-card">
@@ -35,19 +36,18 @@ function Projects() {
             // isBlog={false}
             title="Javascript/jQuery Web App - PokéDex"
             description="  a javascript app with HTML,css,jquery ,that also loads data from an external API The styling for this app was created with help from Bootstrap and interacts with the Pokemon API. The development of Poke-Dex took a deep dive into advanced JavaScript methods and DOM interaction."
-            link="https://github.com/wafachaari/myFlix-clien"
-            application="https://wafachaari.github.io/meet/"
+            link="https://wafachaari.github.io/simple-js-app/"
+            application="https://github.com/wafachaari/simple-js-app"
           />
         </Row>
         <Row className="project-card">
           <ProjectCard
             header="React-Native | CSS | React-Navigation | Firestore | Expo | JavaScript | GiftedChat | JSDocs"
             imgPath={chat}
-            // isBlog={false}
-            title="chatter-box"
-            description="  This react native chat app utilizing react-gifted-chat delivers a real-time chat experience. It has Google Firestore for server side and storage services. Read the detailed readme.md in the GitHub link for more information."
-            link="https://github.com/wafachaari/myFlix-clien"
-            application="https://wafachaari.github.io/meet/"
+                       title="chatter-box"
+            description="  This react native chat app utilizing react-gifted-chat delivers a real-time chat experience. It has Google Firestore for server side and storage services. Read the detailed readme.md in the GitHub link for more information.."
+            link="https://github.com/wafachaari/chatApp2"
+            application="https://github.com/wafachaari/chatApp2"
           />
         </Row>
       </div>

@@ -1,8 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import git from '../img/github.png'
+import twitter from '../img/twitter.png'
 import link from '../img/link3.png'
 import inst from '../img/inst.png'
+ 
 function Footer() {
   return (
     <Container fluid className="footer">
@@ -24,9 +26,16 @@ function Footer() {
               <img alt="git" src={git}></img>
             </a>
             <a
-              href="https://www.linkedin.com/in/wafa-chaari-8b98a0206/ "
+              href=" "
               style={{ color: "black" }}
             ><img alt="link" src={link}></img>
+
+            </a>
+            
+            <a
+              href=" https://twitter.com/wafa_chaari "
+              style={{ color: "black" }}
+            ><img alt="twitter" src={twitter}></img>
 
             </a>
 
