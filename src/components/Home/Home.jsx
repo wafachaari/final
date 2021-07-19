@@ -1,6 +1,7 @@
-import React from 'react';
+import React   from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import Home2 from './Home2'
+ 
 import logo from '../../img/indexsustainble.svg';
 import logo1 from '../../img/indexpixed.svg';
 import git from '../../img/github.png'
@@ -8,11 +9,14 @@ import link from '../../img/link3.png'
 import twitter from '../../img/twitter.png'
 import inst from '../../img/inst.png'
 import logo2 from '../../img/indexneed.svg';
-function Home() {
+function Home() { 
+ 
   return (
     <section className="section section-lg">
       <Container fluid className="home_section" >
         <Container className="container_home">
+        
+         
           <Row>
             <Col md={6}>
               <h1>Hi There <span className="wave">👋🏻</span>,</h1>

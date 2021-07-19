@@ -1,39 +1,43 @@
 import Card from 'react-bootstrap/Card';
-import React from "react";
+import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import ReactDOM from 'react-dom';
-import Player from "./reactPlayer";
+import Modal from 'react-modal';
 
-class ProjectCard extends React.Component {
- /* state = {
-    open: false
-  };
+import ReactPlayer from 'react-player'
+function ProjectCard(props) {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
 
-  onOpenModal = () => {
-    this.setState(prevState => ({
-      open: !prevState.open
-    }));
-  };*/
-  render() {
-    return (
+  return (
+    <div>
       <Card className="project-card-view">
-        <Card.Header className="header">{this.props.header}</Card.Header>
+        <Card.Header className="header">{props.header}</Card.Header>
         <Card.Body  >
-          <Card.Img src={this.props.imgPath} className="image-card" />
-          <Card.Title class="card-title">{this.props.title}</Card.Title>
+          <Card.Img src={props.imgPath} className="image-card" />
+          <Card.Title className="card-title">{props.title}</Card.Title>
           <Card.Text className="text" style={{ textAlign: "justify" }}>
-            {this.props.description}
+            {props.description}
           </Card.Text>
-          <Button className="button-class" href={this.props.github}>Code</Button>
-          <Button className="button-class" href={this.props.application}>Application</Button>
-          <Button className="button-class" >Demo</Button>
-          {/* <Button className="button-class" onClick={this.onOpenModal}>Demo </Button> */}
-          {/* <Player open={this.state.open} toggleModal={this.onOpenModal} /> */}
+          <Button className="button-class" href={props.github}>Code</Button>
+          <Button className="button-class" href={props.application}>Application</Button>
+          <Button className="button-class" onClick={() => setModalIsOpen(true)} >Demo</Button>
+          <Modal className="modalk" isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}
+             
+            center>
+            <div>
+              
+
+              <ReactPlayer url={props.URl} controls={true} width="100%"
+                height="calc(100vh - 100px)" ></ReactPlayer>
+            </div></Modal>
+
         </Card.Body>
       </Card>
-    );
-  }
+
+    </div>
+  );
 }
+
 
 
 const rootElement = document.getElementById("root");

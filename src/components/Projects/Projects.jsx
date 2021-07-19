@@ -5,6 +5,8 @@ import pokemon from '../../img/pok.png';
 import { Container, Row } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 import chat from '../../img/chat.png'
+import vid from '../../img/ach2.mp4'
+import vide from '../../img/video 5.3.mp4'
 function Projects() {
   return (
     <Container>
@@ -17,7 +19,7 @@ function Projects() {
             github="https://github.com/wafachaari/myFlix-client"
             header="React | CSS | JavaScript | OAuth2 | Jest | Serverless Programming"
             application="https://wafachaari.github.io/meet/"
-            URl="../../img/ach2.mp4"
+            URl={vid}
           />
         </Row>
         <Row className="project-card">
@@ -27,7 +29,8 @@ function Projects() {
             title="ReactJS Web App - MyFlix"
             description=" full stack application using React, JWT, and Node.js for serverside (which queries a REST API built from scratch) allows you to create a profile, browse movies, favorite movies, explore directors, and update information.."
             application="https://myflix-client-wafa.netlify.app/"
-            github="https://github.com/wafachaari/myFlix-clien" />
+            github="https://github.com/wafachaari/myFlix-clien"
+            URl={vide} />
         </Row>
         <Row className="project-card">
           <ProjectCard

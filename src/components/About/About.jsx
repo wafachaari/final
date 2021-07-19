@@ -11,7 +11,7 @@ function About() {
   return (
     <section>
       <Container fluid className="profile-container">
-        <div class="profile">
+        <div className="profile">
           <Row style={{ justifyContent: "center" }}>
             <Col md={8}  >
               <p className="about-text" >I'am
@@ -23,17 +23,17 @@ function About() {
                 <br></br><br></br> ⚡Because of my positive mindset, I can cope with time pressure and work with the highest performance to meet deadlines.
                 <br></br><br></br>⚡Over the course of my life, I have developed expertise in several areas of web development. I am seeking to continue this growth by opening myself to opportunities that are guaranteed to challenge me.
                 <br></br><br></br>You can review my latest work in my <span >portfolio</span> and read more about my skills, education, and much more in my <span>resume</span>.          </p>
-              <div class="buttons">
+              <div className="buttons">
                 <a href="../../img/lebenslauf-wafachaari.pdf" download>
-                  <button class="blob-btn" >
+                  <button className="blob-btn" >
                     <img className="lebenslauf-img" src={attach} alt="attach"></img>
                        see my resume here 
-                    <span class="blob-btn__inner">
-                      <span class="blob-btn__blobs">
-                        <span class="blob-btn__blob"></span>
-                        <span class="blob-btn__blob"></span>
-                        <span class="blob-btn__blob"></span>
-                        <span class="blob-btn__blob"></span>
+                    <span className="blob-btn__inner">
+                      <span className="blob-btn__blobs">
+                        <span className="blob-btn__blob"></span>
+                        <span className="blob-btn__blob"></span>
+                        <span className="blob-btn__blob"></span>
+                        <span className="blob-btn__blob"></span>
                       </span>
                     </span>
                   </button></a>
