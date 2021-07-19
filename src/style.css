@@ -160,12 +160,13 @@ span {
   height: 20%;
 }
 .lebenslauf-img {
-  width: 25px;
-  border: black;
+  width: 30px;
+  
   display: block;
   margin-left: auto;
-  margin-right: auto;
-  height: 25px;
+  margin-right: 3px;
+  height: 30px;
+
 }
 
 .icon {
@@ -254,7 +255,7 @@ margin-left: 150px;
   border-radius: 30px;
 }
 .blob-btn:hover {
-  color: #fff;
+  color:black;
   border-radius: 30px;
 }
 .blob-btn:hover:after {
