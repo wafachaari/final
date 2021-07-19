@@ -22,14 +22,12 @@ function ProjectCard(props) {
           <Button className="button-class" href={props.application}>Application</Button>
           <Button className="button-class" onClick={() => setModalIsOpen(true)} >Demo</Button>
           <Modal className="modalk" isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}
-             
             center>
             <div>
-              
-
               <ReactPlayer url={props.URl} controls={true} width="100%"
                 height="calc(100vh - 100px)" ></ReactPlayer>
-            </div></Modal>
+            </div>
+          </Modal>
 
         </Card.Body>
       </Card>

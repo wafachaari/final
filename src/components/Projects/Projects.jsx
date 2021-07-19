@@ -5,8 +5,10 @@ import pokemon from '../../img/pok.png';
 import { Container, Row } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 import chat from '../../img/chat.png'
-import vid from '../../img/ach2.mp4'
-import vide from '../../img/video 5.3.mp4'
+import pokVideo from '../../img/ach2.mp4'
+import meetVideo from '../../img/meet-video.mp4'
+import flixVideo from '../../img/flix-video.webm'
+import chattVideo from '../../img/video 5.3.mp4'
 function Projects() {
   return (
     <Container>
@@ -19,7 +21,7 @@ function Projects() {
             github="https://github.com/wafachaari/myFlix-client"
             header="React | CSS | JavaScript | OAuth2 | Jest | Serverless Programming"
             application="https://wafachaari.github.io/meet/"
-            URl={vid}
+            URl={meetVideo}
           />
         </Row>
         <Row className="project-card">
@@ -30,28 +32,27 @@ function Projects() {
             description=" full stack application using React, JWT, and Node.js for serverside (which queries a REST API built from scratch) allows you to create a profile, browse movies, favorite movies, explore directors, and update information.."
             application="https://myflix-client-wafa.netlify.app/"
             github="https://github.com/wafachaari/myFlix-clien"
-            URl={vide} />
+            URl={flixVideo} />
         </Row>
         <Row className="project-card">
           <ProjectCard
             header="HTML | CSS | JavaScript | jQuery | Bootstrap"
             imgPath={pokemon}
-            // isBlog={false}
             title="Javascript/jQuery Web App - PokéDex"
             description="  a javascript app with HTML,css,jquery ,that also loads data from an external API The styling for this app was created with help from Bootstrap and interacts with the Pokemon API. The development of Poke-Dex took a deep dive into advanced JavaScript methods and DOM interaction."
             link="https://wafachaari.github.io/simple-js-app/"
             application="https://github.com/wafachaari/simple-js-app"
-          />
+            URl={pokVideo} />
         </Row>
         <Row className="project-card">
           <ProjectCard
             header="React-Native | CSS | React-Navigation | Firestore | Expo | JavaScript | GiftedChat | JSDocs"
             imgPath={chat}
-                       title="chatter-box"
+            title="chatter-box"
             description="  This react native chat app utilizing react-gifted-chat delivers a real-time chat experience. It has Google Firestore for server side and storage services. Read the detailed readme.md in the GitHub link for more information.."
             link="https://github.com/wafachaari/chatApp2"
             application="https://github.com/wafachaari/chatApp2"
-          />
+            URl={chattVideo} />
         </Row>
       </div>
     </Container>
