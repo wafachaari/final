@@ -9,7 +9,7 @@ import Animation from "./Animation"
 
 function About() {
   return (
-    <section>
+    <section id="about">
       <Container fluid className="profile-container">
         <div className="profile">
           <Row style={{ justifyContent: "center" }}>
