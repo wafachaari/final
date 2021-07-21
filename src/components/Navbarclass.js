@@ -17,7 +17,7 @@ function Navbarclass() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home" >
             <Nav.Item>
-              <Nav.Link className="navlink" as={Link} to="/#">
+              <Nav.Link className="navlink" as={Link} to="/final">
                 <AiOutlineHome style={{ marginBottom: "2px" }} />
                 Home
               </Nav.Link>
