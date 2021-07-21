@@ -13,12 +13,11 @@ function App() {
     <Router>
       <div className="App" >
         <Navbarclass />
-          <HashRouter>  
+          
           <Route path="/final"   component={Home} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/About" component={About} />
-        </HashRouter>
-       
+          <Route path="/final#projects" component={Projects} />
+          <Route path="/final#About" component={About} />
+        
         <Footer />
       </div></Router>
   );
