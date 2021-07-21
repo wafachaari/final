@@ -23,12 +23,12 @@ function Navbarclass() {
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link className="navlink" as={Link} to="/final#About">
+              <Nav.Link className="navlink" as={Link} to="/About">
                 <AiOutlineUser style={{ marginBottom: "2px" }} />
                 About
               </Nav.Link>
             </Nav.Item><Nav.Item>
-              <Nav.Link className="navlink" as={Link} to="/final#Projects">
+              <Nav.Link className="navlink" as={Link} to="/Projects">
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
