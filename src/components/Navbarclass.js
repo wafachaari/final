@@ -17,27 +17,21 @@ function Navbarclass() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home" >
             <Nav.Item>
-              <Nav.Link className="navlink" as={Link} to="/final">
+              <Nav.Link className="navlink" as={Link} to="/">
                 <AiOutlineHome style={{ marginBottom: "2px" }} />
                 Home
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link className="navlink"  
-              
-       to="/About"
-              
+              <Nav.Link className="navlink"
+                to="/About"
               >
-               
-               
-               
-               
-               
+
                 <AiOutlineUser style={{ marginBottom: "2px" }} />
                 About
               </Nav.Link>
             </Nav.Item><Nav.Item>
-              <Nav.Link className="navlink" as={Link} to="#Projects">
+              <Nav.Link className="navlink" as={Link} to="/Projects">
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
