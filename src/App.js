@@ -1,5 +1,5 @@
 import React from 'react';
-import "./style.css";
+import "./style.css";import { HashRouter } from "react-router-dom";
 import "./App.css";
 import Navbarclass from "./components/Navbarclass";
 import Home from "./components/Home/Home";
@@ -13,11 +13,12 @@ function App() {
     <Router>
       <div className="App" >
         <Navbarclass />
-        <Switch>  
+          <HashRouter>  
           <Route path="/final"   component={Home} />
           <Route path="/projects" component={Projects} />
           <Route path="/About" component={About} />
-        </Switch>
+        </HashRouter>
+       
         <Footer />
       </div></Router>
   );

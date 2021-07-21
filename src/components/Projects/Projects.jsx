@@ -11,8 +11,8 @@ import flixVideo from '../../img/flix-video.webm'
 import chattVideo from '../../img/video 5.3.mp4'
 function Projects() {
   return (
-    <Container>
-      <div>
+    <Container >
+      <div className="home_section">
         <Row className="project-card">
           <ProjectCard
             imgPath={meetup}
