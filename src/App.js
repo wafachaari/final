@@ -5,8 +5,8 @@ import React, { Component } from 'react';
 import { HashRouter, Link } from "react-router-dom";
 import About from "./components/About/About"
 import Home from "./components/Home/Home"
+import Footer from "./components/Footer"
 import Projects from "./components/Projects/Projects";
-import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 /*function App() {
@@ -32,6 +32,7 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/About" component={About} />
           <Route path="/Projects" component={Projects} />
+          <Footer></Footer>
         </div>
       </HashRouter>
     );

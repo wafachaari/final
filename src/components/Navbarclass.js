@@ -23,9 +23,7 @@ function Navbarclass() {
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link className="navlink" as={Link} to="/About"
-              >
-
+              <Nav.Link className="navlink" as={Link} to="/About" >
                 <AiOutlineUser style={{ marginBottom: "2px" }} />
                 About
               </Nav.Link>

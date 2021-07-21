@@ -12,7 +12,7 @@ import chattVideo from '../../img/video 5.3.mp4'
 function Projects() {
   return (
     <Container >
-      <div className="home_section">
+      <div >
         <Row className="project-card">
           <ProjectCard
             imgPath={meetup}
