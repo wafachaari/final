@@ -1,4 +1,3 @@
- 
 import "./style.css";
 import "./App.css";
 import Navbarclass from "./components/Navbarclass";
@@ -29,21 +28,15 @@ class App extends Component {
     return (
       <HashRouter basename="/">
         <div>
-          <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/About">About</Link></li>
- <li><Link to="/Projects">Projects</Link></li>
-        </ul> 
-  
+          <Navbarclass></Navbarclass>
           <Route exact path="/" component={Home} />
           <Route path="/About" component={About} />
-          <Route path="/Projects" component={About} />
+          <Route path="/Projects" component={Projects} />
         </div>
       </HashRouter>
     );
   }
 }
-
 const ome = () => <div><Home></Home></div>
 const bout = () => <div><About></About></div>
 
