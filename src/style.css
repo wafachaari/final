@@ -40,6 +40,7 @@
 
  .header {
    color: black;
+   font-family: cursive;
    font-size: 20px;
    background-color: white !important;
    align-content: center !important;
@@ -142,7 +143,7 @@
  .ligne-about {
    height: 2px;
    background-color: orange;
-    margin: 20px  0;
+   margin: 20px 0;
  }
 
  .skills-text {
@@ -361,7 +362,6 @@
    background-size: cover;
    margin: 0;
    position: relative;
-  
    background-position: top center;
    background-repeat: no-repeat;
  }
@@ -474,20 +474,22 @@
  }
 
  .home-icon {
- margin-bottom: 20px;
+   margin-bottom: 20px;
  }
-.icon-img{width: 35px;
-height: 35px; 
-margin-left: 15px;
-margin-top: 20px;}
 
-.icon-img:hover {transform: scale(1.2);
-  color:orange;
-  box-shadow: 0 0 10px orange;
-  
-}
+ .icon-img {
+   width: 35px;
+   height: 35px;
+   margin-left: 15px;
+   margin-top: 20px;
+ }
 
-  
+ .icon-img:hover {
+   transform: scale(1.2);
+   color: orange;
+   box-shadow: 0 0 10px orange;
+ }
+
  .index-table {
    position: relative;
    padding-top: 90px !important;
@@ -534,7 +536,6 @@ margin-top: 20px;}
    font-style: normal;
    align-items: center;
    margin: 10px 10px;
-    
  }
 
  .tt-card {
@@ -621,11 +622,16 @@ margin-top: 20px;}
    height: 35px;
    margin-left: 90px;
  }
- .footer-icon{padding-left: 10px;}
-.footer-icon:hover{
-  transform: scale(1.2);
-  box-shadow: wheat;
-}
+
+ .footer-icon {
+   padding-left: 10px;
+ }
+
+ .footer-icon:hover {
+   transform: scale(1.2);
+   box-shadow: wheat;
+ }
+
  .text-black {
    padding-top: 10px;
    padding-left: 20px;
