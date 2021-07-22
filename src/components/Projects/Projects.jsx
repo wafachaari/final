@@ -13,23 +13,15 @@ function Projects() {
   return (
     <Container >
       <div >
-        <Row className="project-card">
-          <ProjectCard
-            imgPath={meetup}
-            title="ReactJS Meetup Progressive Web App"
-            description="a serverless, progressive web application (PWA) with React using a test-driven development (TDD) technique and hosted by a cloud provider (Lambda AWS). Users of this app will be able to use this application whenever they want to view upcoming events for a specific city.."
-            github="https://github.com/wafachaari/meet"
-            header="React | CSS | JavaScript | OAuth2 | Jest | Serverless Programming"
-            application="https://wafachaari.github.io/meet/"
-            URl={meetVideo}
-          />
-        </Row>
+      
         <Row className="project-card">
           <ProjectCard
             header="MongoDB | Express | React | Node.js | Redux | JSX | SCSS | Parcel | JavaScript | Bootstrap"
             imgPath={movieapi}
             title="ReactJS Web App - MyFlix"
-            description=" full stack application using React, JWT, and Node.js for serverside (which queries a REST API built from scratch) allows you to create a profile, browse movies, favorite movies, explore directors, and update information.."
+            description=" full stack application using React, JWT, and Node.js for serverside (which queries a REST API built from scratch)
+             allows you to create a profile, browse movies, favorite movies, explore directors, and update information. "
+             case_study="see case study"
             application="https://myflix-client-wafa.netlify.app/"
             github="https://github.com/wafachaari/myFlix-client"
             URl={flixVideo} />
@@ -53,6 +45,17 @@ function Projects() {
             link="https://github.com/wafachaari/chatApp2"
            // application="https://github.com/wafachaari/chatApp2"
             URl={chattVideo} />
+        </Row>
+        <Row className="project-card">
+          <ProjectCard
+            imgPath={meetup}
+            title="ReactJS Meetup Progressive Web App"
+            description="a serverless, progressive web application (PWA) with React using a test-driven development (TDD) technique and hosted by a cloud provider (Lambda AWS). Users of this app will be able to use this application whenever they want to view upcoming events for a specific city.."
+            github="https://github.com/wafachaari/meet"
+            header="React | CSS | JavaScript | OAuth2 | Jest | Serverless Programming"
+            application="https://wafachaari.github.io/meet/"
+            URl={meetVideo}
+          />
         </Row>
       </div>
     </Container>

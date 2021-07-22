@@ -12,7 +12,7 @@ function Navbarclass() {
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" >
-        <Navbar.Brand href="https://wafachaari.github.io/final/" >
+        <Navbar.Brand href="https://wafachaari.github.io/portfolio/" >
           <img src={icon} className="img-fluid logo" alt="brand" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

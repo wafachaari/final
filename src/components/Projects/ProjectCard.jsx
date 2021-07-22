@@ -16,6 +16,7 @@ function ProjectCard(props) {
           <Card.Text className="text" style={{ textAlign: "justify" }}>
             {props.description}
           </Card.Text>
+          <Card.Link>{props.case_study}</Card.Link>
           <Button className="button-class" href={props.github}>Code</Button>
           <Button className="button-class" href={props.application}>Application</Button>
           <Button className="button-class" onClick={() => setModalIsOpen(true)} >Demo</Button>
