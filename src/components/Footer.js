@@ -22,23 +22,23 @@ function Footer() {
               href=" https://github.com/wafachaari"
               style={{ color: "black" }}
             >
-              <img alt="git" src={git}></img>
+              <img className="footer-icon" alt="git" src={git}></img>
             </a>
             <a
-              href=" "
+              href=" https://www.linkedin.com/in/wafa-chaari-8b98a0206/"
               style={{ color: "black" }}
-            ><img alt="link" src={link}></img>
+            ><img className="footer-icon" alt="link" src={link}></img>
             </a>
             <a
               href=" https://twitter.com/wafa_chaari "
               style={{ color: "black" }}
-            ><img alt="twitter" src={twitter}></img>
+            ><img className="footer-icon" alt="twitter" src={twitter}></img>
             </a>
             <a
-              href=" https://twitter.com/wafa_chaari"
+              href=" https://www.instagram.com/chaari.wafa/"
               style={{ color: "black" }}
             >
-              <img alt="inst" src={inst}></img>
+              <img className="footer-icon" alt="inst" src={inst}></img>
             </a>
           </div>
         </Col>

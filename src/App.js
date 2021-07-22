@@ -2,12 +2,12 @@ import "./style.css";
 import "./App.css";
 import Navbarclass from "./components/Navbarclass";
 import React, { Component } from 'react';
-import { HashRouter, Link } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import About from "./components/About/About"
 import Home from "./components/Home/Home"
 import Footer from "./components/Footer"
 import Projects from "./components/Projects/Projects";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as  Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 /*function App() {
   return (

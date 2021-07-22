@@ -39,36 +39,39 @@ function Home() {
               </svg>
             </Col>
           </Row>
+        
+        
+        
+        
+        
+          <Row className="home-icon">
+        <a
+          href=" https://github.com/wafachaari"
+          style={{ color: "black" }}
+        >
+          <img className="icon-img" alt="git" src={git}></img>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/wafa-chaari-8b98a0206/ "
+          style={{ color: "black" }}
+        ><img className="icon-img"alt="link" src={link}></img>
+        </a>
+        <a
+          href=" https://twitter.com/wafa_chaari "
+          style={{ color: "black" }}
+        ><img className="icon-img" alt="twitter" src={twitter}></img>
+        </a>
+        <a
+          href="https://www.instagram.com/chaari.wafa/"
+          style={{ color: "black" }}
+        >
+          <img className="icon-img" alt="inst" src={inst}></img>
+        </a>
+      </Row>
         </Container>
-        <div className="home-icon">
-          <a
-            href="https://github.com/wafachaari"
-            style={{ color: "black" }}
-          >
-            <img alt="git" src={git}></img>
-          </a>
 
-          <a
-            href="https://www.linkedin.com/in/wafa-chaari-8b98a0206/ "
-            style={{ color: "black" }}
-          ><img alt="link" src={link}></img>
-          </a>
-
-          <a
-            href=" "
-            style={{ color: "black" }}
-          >
-            <img alt="inst" src={inst}></img>
-          </a>
-
-          <a
-            href="https://twitter.com/wafa_chaari "
-            style={{ color: "black" }}
-          >
-            <img alt="twitter" src={twitter}></img>
-          </a>
-        </div>
       </Container>
+     
       <Container className="index-table">
         <Row className="home2-row" style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="home2-card" >

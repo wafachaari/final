@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { Navbar, Nav } from 'react-bootstrap';
 import icon from '../img/logo-header.svg'
+
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
@@ -38,6 +39,7 @@ function Navbarclass() {
         </Navbar.Collapse>
       </Navbar>
       <div className="ligne" ></div>
+     
     </div>
   )
 }
