@@ -39,39 +39,39 @@ function Home() {
               </svg>
             </Col>
           </Row>
-        
-        
-        
-        
-        
+
+
+
+
+
           <Row className="home-icon">
-        <a
-          href=" https://github.com/wafachaari"
-          style={{ color: "black" }}
-        >
-          <img className="icon-img" alt="git" src={git}></img>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/wafa-chaari-8b98a0206/ "
-          style={{ color: "black" }}
-        ><img className="icon-img"alt="link" src={link}></img>
-        </a>
-        <a
-          href=" https://twitter.com/wafa_chaari "
-          style={{ color: "black" }}
-        ><img className="icon-img" alt="twitter" src={twitter}></img>
-        </a>
-        <a
-          href="https://www.instagram.com/chaari.wafa/"
-          style={{ color: "black" }}
-        >
-          <img className="icon-img" alt="inst" src={inst}></img>
-        </a>
-      </Row>
+            <a
+              href=" https://github.com/wafachaari"
+              style={{ color: "black" }}
+            >
+              <img className="icon-img" alt="git" src={git}></img>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/wafa-chaari-8b98a0206/ "
+              style={{ color: "black" }}
+            ><img className="icon-img" alt="link" src={link}></img>
+            </a>
+            <a
+              href=" https://twitter.com/wafa_chaari "
+              style={{ color: "black" }}
+            ><img className="icon-img" alt="twitter" src={twitter}></img>
+            </a>
+            <a
+              href="https://www.instagram.com/chaari.wafa/"
+              style={{ color: "black" }}
+            >
+              <img className="icon-img" alt="inst" src={inst}></img>
+            </a>
+          </Row>
         </Container>
 
       </Container>
-     
+
       <Container className="index-table">
         <Row className="home2-row" style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="home2-card" >
@@ -82,7 +82,7 @@ function Home() {
           </Col>
           <Col md={4} className="home2-card" >
             <Home2 img={logo1}
-              title="never storp learning"
+              title="Never storp learning"
               text=" I like the challenges and make new things.So, it implies to never stop learning new skills"></Home2>
           </Col>
           <Col md={4} className="home2-card" >

@@ -22,7 +22,7 @@ function ProjectCard(props) {
           <Modal className="modalk" isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}
             center>
             <div>
-              <ReactPlayer url={props.URl} controls={true} width="100%"
+              <ReactPlayer url={props.URl} controls={true} width="100%" playing
                 height="calc(100vh - 100px)" ></ReactPlayer>
             </div>
           </Modal>

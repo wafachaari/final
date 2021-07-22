@@ -6,7 +6,7 @@ function Home2(props) {
       <Card.Img className="img-card" src={props.img} />
       <Card.Body className="bd-card">
         <Card.Title className="tt-card" >{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
+        <Card.Text style={{ textAlign: "left" }}>
           {props.text}
         </Card.Text>
       </Card.Body>

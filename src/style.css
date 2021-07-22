@@ -142,7 +142,7 @@
  .ligne-about {
    height: 2px;
    background-color: orange;
-   margin: 20px;
+    margin: 20px  0;
  }
 
  .skills-text {
@@ -534,6 +534,7 @@ margin-top: 20px;}
    font-style: normal;
    align-items: center;
    margin: 10px 10px;
+    
  }
 
  .tt-card {
