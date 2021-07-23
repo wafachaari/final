@@ -25,7 +25,7 @@ function About() {
                 <br></br><br></br>⚡Over the course of my life, I have developed expertise in several areas of web development. I am seeking to continue this growth by opening myself to opportunities that are guaranteed to challenge me.
                 <br></br><br></br>You can review my latest work in my <span >portfolio</span> and read more about my skills, education, and much more in my <span>resume</span>.          </p>
               <div className="buttons">
-                <a  href={pdf}   target="_blank" download>
+                <a  href={pdf} className="a"  target="_blank" download>
                   <button className="blob-btn">
                     <img className="lebenslauf-img" src={attach} alt="attach"></img>
                     see my resume here

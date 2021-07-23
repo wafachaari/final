@@ -84,14 +84,9 @@
    font-style: oblique;
    font-weight: bolder;
  }
- .card-casestudy{color: black;
-font-size: 15px;
-text-decoration: underline;
-}
+ .card-casestudy{color: black;}
  .card-casestudy:hover{color: black;
- font-size:  18px;
-font-weight: bolder;
-text-decoration: underline;}
+ font-size: large;}
  .project-card-view {
    color: black !important;
    background-color: #ffffe0 !important;
@@ -136,6 +131,8 @@ text-decoration: underline;}
    color: orange;
    font-weight: bold;
  }
+ .a{text-decoration: none;}
+ .a:hover{text-decoration: none;}
 
  .about-text {
    font-size: 20px;
@@ -250,7 +247,7 @@ text-decoration: underline;}
    text-align: center;
    text-transform: uppercase;
    color: black;
-   font-size: 16px;
+   font-size: 20px;
    font-weight: bold;
    background-color: transparent;
    outline: none;
@@ -268,7 +265,7 @@ text-decoration: underline;}
    top: 0;
    width: 100%;
    height: 100%;
-   border: 2px solid orange;
+   border:4px solid orange;
    border-radius: 30px;
  }
 
@@ -287,6 +284,7 @@ text-decoration: underline;}
  .blob-btn:hover {
    color: black;
    border-radius: 30px;
+   transform: scale(1.1);
  }
 
  .blob-btn:hover:after {
