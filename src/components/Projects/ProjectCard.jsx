@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
+import casestudy from "../../img/case_study.pdf"
 import ReactPlayer from 'react-player'
 function ProjectCard(props) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -16,7 +17,7 @@ function ProjectCard(props) {
           <Card.Text className="text" style={{ textAlign: "justify" }}>
             {props.description}
           </Card.Text>
-          <Card.Link className="card-casestudy">{props.case_study}</Card.Link>
+          <Card.Link className="card-casestudy" target="_blank" href={casestudy}>{props.case_study}</Card.Link>
 <br></br>
           <Button className="button-class" href={props.github}>Code</Button>
           <Button className="button-class" href={props.application}>Application</Button>
