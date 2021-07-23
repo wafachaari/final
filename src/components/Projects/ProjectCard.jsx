@@ -6,8 +6,11 @@ import Modal from 'react-modal';
 import casestudy from "../../img/case_study.pdf"
 import ReactPlayer from 'react-player'
 function ProjectCard(props) {
+
   const [modalIsOpen, setModalIsOpen] = useState(false);
+
   return (
+
     <div>
       <Card className="project-card-view">
         <Card.Header className="header">{props.header}</Card.Header>
@@ -18,8 +21,9 @@ function ProjectCard(props) {
             {props.description}
           </Card.Text>
           <Card.Link className="card-casestudy" target="_blank" href={casestudy}>{props.case_study}</Card.Link>
-<br></br>
+          <br></br>
           <Button className="button-class" href={props.github}>Code</Button>
+
           <Button className="button-class" href={props.application}>Application</Button>
           <Button className="button-class" onClick={() => setModalIsOpen(true)} >Demo</Button>
           <Modal className="modalk" isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}

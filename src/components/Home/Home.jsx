@@ -5,8 +5,11 @@ import logo from '../../img/indexsustainble.svg';
 import logo1 from '../../img/indexpixed.svg';
 import git from '../../img/github.png'
 import link from '../../img/link3.png'
+import attach from "../../img/att3.png"
 import twitter from '../../img/twitter.png'
 import inst from '../../img/inst.png'
+ 
+import pdf from "../../img/lebenslauf-WafaChaari.pdf"
 import logo2 from '../../img/indexneed.svg';
 function Home() {
   return (
@@ -67,7 +70,16 @@ function Home() {
             >
               <img className="icon-img" alt="inst" src={inst}></img>
             </a>
-          </Row>
+          </Row> 
+            <div className="buttons">
+                <a  href={pdf} className="a"  target="_blank" download>
+                  <button className="btn-home">
+                    <img className="lebenslauf-img" src={attach} alt="attach"></img>
+                    see my resume here
+                    
+                  </button></a>
+                <br />
+              </div>
         </Container>
 
       </Container>
@@ -77,18 +89,18 @@ function Home() {
           <Col md={4} className="home2-card" >
             <Home2 img={logo}
               title="User first"
-              text="I switch on an user mind and see the problem to resolve from his perspective."
+              text="I switch on a user mind and see the problem to resolve from his perspective."
             ></Home2>
           </Col>
           <Col md={4} className="home2-card" >
             <Home2 img={logo1}
               title="Never storp learning"
-              text=" I like the challenges and make new things.So, it implies to never stop learning new skills"></Home2>
+              text=" I like the challenges and make new things. So, it implies never stop learning new skills"></Home2>
           </Col>
           <Col md={4} className="home2-card" >
             <Home2 img={logo2}
               title="Re-useful code"
-              text="when I code, my effort it's on make the code be reuseful and simple."
+              text="when I code, my effort it's to make the code be reuseful and simple."
             ></Home2>
           </Col>
         </Row>
