@@ -84,9 +84,15 @@
    font-style: oblique;
    font-weight: bolder;
  }
- .card-casestudy{color: black;}
+ .card-casestudy{color: black;
+font-size: 20px;
+font-weight: bolder;
+text-decoration: underline;
+}
  .card-casestudy:hover{color: black;
- font-size: large;}
+ font-size: large;
+
+font-weight: bolder;}
  .project-card-view {
    color: black !important;
    background-color: #ffffe0 !important;
