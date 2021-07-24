@@ -94,7 +94,7 @@ function Home() {
           </Col>
           <Col md={4} className="home2-card" >
             <Home2 img={logo1}
-              title="Never storp learning"
+              title="Never stop learning"
               text=" I like the challenges and make new things. So, it implies never stop learning new skills"></Home2>
           </Col>
           <Col md={4} className="home2-card" >

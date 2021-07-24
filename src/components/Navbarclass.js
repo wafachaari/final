@@ -33,7 +33,7 @@ function Navbarclass() {
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                projects
+                Projects
               </Nav.Link></Nav.Item>
           </Nav>
         </Navbar.Collapse>
